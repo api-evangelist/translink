@@ -1,0 +1,55 @@
+{
+    "name": "Translink",
+    "description": "Greater Vancouver\u2019s transportation agency, we tweet all things public transport, including service updates, tips and info!",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/9542-translink.jpg",
+    "tags": [
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/translink\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Translink",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/9542-translink.jpg",
+            "humanURL": "https:\/\/translink.ca",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/translink-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/translink-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/rtdsapi.translink.ca\/rtdsapi\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/translink"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.translink.ca\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/TransLink"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/translink.ca"
+        }
+    ]
+}
